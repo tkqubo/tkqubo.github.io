@@ -1,0 +1,3 @@
+[submodule "themes/alberta"]
+	path = themes/alberta
+	url = https://github.com/tkqubo/hexo-theme-alberta.git
