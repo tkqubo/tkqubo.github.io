@@ -8,6 +8,8 @@ subtitle:
 description:
 author: tkqubo
 language:
+  - en
+  - ja
 timezone:
 
 # URL
@@ -70,3 +72,4 @@ theme: alberta
 deploy:
   type: git
   repo: https://github.com/tkqubo/tkqubo.git
+  branch: master
