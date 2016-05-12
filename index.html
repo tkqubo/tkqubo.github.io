@@ -77,10 +77,11 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Last week I held a small reading club to read <em>“<a href="https://www.amazon.co.jp/dp/B016YFQ88M" target="_blank" rel="external">Reactive Programming with Scala and Akka</a>“</em>, written by Prasanna Kumar Sathyanarayanan and Suraj Atreya.</p>
+        <p>Last week I held a small reading club to read <a href="http://www.amazon.com/gp/product/1783984341/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1783984341&linkCode=as2&tag=tkqubo-20&linkId=3DD3AV3FBDD6745N" target="_blank" rel="external">Reactive Programming with Scala and Akka</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=tkqubo-20&l=as2&o=1&a=1783984341" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;">, written by Prasanna Kumar Sathyanarayanan and Suraj Atreya.</p>
+<p><a href="http://www.amazon.com/gp/product/1783984341/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1783984341&linkCode=as2&tag=tkqubo-20&linkId=JASVNACQ5LY5DXPL" target="_blank" rel="external"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1783984341&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=tkqubo-20"></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=tkqubo-20&l=as2&o=1&a=1783984341" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"></p>
 <p>The book contains a lot of exciting topics about Scala, Functional Programming, Reactive Programming, and Akka.  Thus highly recommended for anyone with Scala love.</p>
 <p>This time we read chapter 1, “Introducing Reactive Programming”.  And the below is what we’ve learned from there.</p>
-<p><img src="/tkqubo/2016/05/12/me.jpg" alt="me"></p>
+<img src="/tkqubo/2016/05/12/reactive-programming-with-scala-and-akka-chapter-1/me.jpg" alt="me.jpg" title="">
 <h2 id="Contents"><a href="#Contents" class="headerlink" title="Contents"></a>Contents</h2><p>This chapter largely contains these three parts, briefing the concept of reactive programming.</p>
 <ul>
 <li>What is Reactive Programming?</li>
@@ -103,6 +104,7 @@
 </ul>
 <p>From them, we could additionally learn the difference between <em>scalable</em> and <em>elastic</em>.</p>
 <p><em>Scalability</em> itself, for example, can be achieved simply by engineer’s manually re-writing a config file and adding one new server to the load balancer.  But to achieve the <em>elasticity</em>, those configuration must be done dynamically and automatically.  (see <a href="http://www.reactivemanifesto.org/glossary#Elasticity" target="_blank" rel="external">“Elasticity” in Glossary</a> of the Reactive Manifesto)</p>
+<p><style>.gutter { display: none; }</style><br><figure class="highlight bash"><figcaption><span>So something like this?</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">           +-                    +--------------+</span><br><span class="line">      Goal |              +----&gt; |Responsiveness| &lt;-----+</span><br><span class="line">           +-             |      +--------------+       |</span><br><span class="line">                          |             ^               |</span><br><span class="line">           +-       +-----+----+        |       +-------+-------+</span><br><span class="line">           |        |Elasticity| &lt;------------&gt; |  Resilience / |</span><br><span class="line">           |        +----------+        |       |Fault tolerance|</span><br><span class="line">           |              ^             |       +---------------+</span><br><span class="line">Principles |   +--------&gt; |             |               ^</span><br><span class="line">           |   |          |             |               |</span><br><span class="line">           |   |    +-----+-----+       |               |</span><br><span class="line">           |   |    |Scalability|       |               |</span><br><span class="line">           |   |    +-----------+       |               |</span><br><span class="line">           +-  |          ^             |               |</span><br><span class="line">               |          |             |               |</span><br><span class="line">           +-  | +--------+-------------+---------------+---------+</span><br><span class="line">    Method |   +-+     (Akka) Message−Driven architecture         |</span><br><span class="line">           +-    +------------------------------------------------+</span><br></pre></td></tr></table></figure></p>
 <h2 id="Around-Reactive-Programming"><a href="#Around-Reactive-Programming" class="headerlink" title="Around Reactive Programming"></a>Around Reactive Programming</h2><p>Functional programming, asynchronous programming, data streams, microservices, and RESTful services…  Those terminologies are too much popular recently and I can hardly imagine a day without using those jargons in software engineers’ conversation.  But how are they related to Reactive Programming?</p>
 <p>In this multicore processor era, asynchronous programming paradigm is vital for creating reactive systems since single-threaded programming model cannot fully utilize all the cores.  Side-effect-free (pure) functional programming can make asynchronous programming easier.</p>
 <p>And from the software architecture perspective, when adhering to the principle of the Reactive Programming, the system can eventually form a microservice-like shape because microservice architecture too emphasize a system’s modularity, scalability, maintainability and resilience.  So in a sense, microservice architecture is sort of a realization of reactive architecture.  And RESTful interface can be very handy universal language for interaction between those modularized services.</p>
@@ -121,10 +123,10 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://tkqubo.github.io/tkqubo/tkqubo/2016/05/12/reactive-programming-with-scala-and-akka-chapter-1/" data-id="cio3oxsys000299x9h1vg3z9n" class="article-share-link">Share</a>
+      <a data-url="http://tkqubo.github.io/tkqubo/tkqubo/2016/05/12/reactive-programming-with-scala-and-akka-chapter-1/" data-id="cio3qi1pg00003ox92ee9bvgp" class="article-share-link">Share</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tkqubo/tags/RP/">RP</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tkqubo/tags/Scala/">Scala</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tkqubo/tags/ReactiveProgramming/">ReactiveProgramming</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tkqubo/tags/Scala/">Scala</a></li></ul>
 
     </footer>
   </div>
@@ -160,7 +162,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://tkqubo.github.io/tkqubo/tkqubo/2016/05/12/init/" data-id="cio3oxsyj000099x9vv77ih0c" class="article-share-link">Share</a>
+      <a data-url="http://tkqubo.github.io/tkqubo/tkqubo/2016/05/12/init/" data-id="cio3qi1qf00053ox9e0a6bivk" class="article-share-link">Share</a>
       
       
     </footer>
