@@ -72,4 +72,4 @@ theme: alberta
 deploy:
   type: git
   repo: https://github.com/tkqubo/tkqubo.git
-  branch: master
+  branch: gh-pages
