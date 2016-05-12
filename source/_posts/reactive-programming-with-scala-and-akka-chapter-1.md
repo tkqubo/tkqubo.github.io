@@ -2,14 +2,20 @@
 title: Reading "Reactive Programming with Scala and Akka" - Chapter 1
 lang: en
 date: 2016-05-12 10:00:00
-tags: Scala, Reactive, Akka
+tags:
+  - Scala
+  - ReactiveProgramming
 ---
 
-Last week I held a small reading club to read *"[Reactive Programming with Scala and Akka](https://www.amazon.co.jp/dp/B016YFQ88M)"*, written by Prasanna Kumar Sathyanarayanan and Suraj Atreya.
+Last week I held a small reading club to read <a  href="http://www.amazon.com/gp/product/1783984341/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1783984341&linkCode=as2&tag=tkqubo-20&linkId=3DD3AV3FBDD6745N">Reactive Programming with Scala and Akka</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=tkqubo-20&l=as2&o=1&a=1783984341" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, written by Prasanna Kumar Sathyanarayanan and Suraj Atreya.
+
+<a  href="http://www.amazon.com/gp/product/1783984341/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1783984341&linkCode=as2&tag=tkqubo-20&linkId=JASVNACQ5LY5DXPL"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1783984341&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=tkqubo-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=tkqubo-20&l=as2&o=1&a=1783984341" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 The book contains a lot of exciting topics about Scala, Functional Programming, Reactive Programming, and Akka.  Thus highly recommended for anyone with Scala love.
 
 This time we read chapter 1, "Introducing Reactive Programming".  And the below is what we've learned from there.
+
+{% asset_img me.jpg %}
 
 ## Contents
 
@@ -40,6 +46,29 @@ For those 4 RP pillars above, these materials would be of great help
 From them, we could additionally learn the difference between *scalable* and *elastic*.
 
 *Scalability* itself, for example, can be achieved simply by engineer's manually re-writing a config file and adding one new server to the load balancer.  But to achieve the *elasticity*, those configuration must be done dynamically and automatically.  (see ["Elasticity" in Glossary](http://www.reactivemanifesto.org/glossary#Elasticity) of the Reactive Manifesto)
+
+<style>.gutter { display: none; }</style>
+``` bash So something like this?
+           +-                    +--------------+
+      Goal |              +----> |Responsiveness| <-----+
+           +-             |      +--------------+       |
+                          |             ^               |
+           +-       +-----+----+        |       +-------+-------+
+           |        |Elasticity| <------------> |  Resilience / |
+           |        +----------+        |       |Fault tolerance|
+           |              ^             |       +---------------+
+Principles |   +--------> |             |               ^
+           |   |          |             |               |
+           |   |    +-----+-----+       |               |
+           |   |    |Scalability|       |               |
+           |   |    +-----------+       |               |
+           +-  |          ^             |               |
+               |          |             |               |
+           +-  | +--------+-------------+---------------+---------+
+    Method |   +-+     (Akka) Message−Driven architecture         |
+           +-    +------------------------------------------------+
+```
+
 
 ## Around Reactive Programming
 
