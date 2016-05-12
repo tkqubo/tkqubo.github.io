@@ -9,9 +9,9 @@ Mostly about software engineering, written in English or Japanese
 
 ## This blog is about whom?
 
-Me, a software engineer, main language is Scala, live in Tokyo. 
+Me, a software engineer, main language is Scala, working at [Oneteam Inc.](https://one-team.com/), live in Tokyo.
 
-- https://github.com/tkqubo
+- GitHub: https://github.com/tkqubo
 
 ## How about construction of this blog?
 

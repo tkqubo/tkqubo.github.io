@@ -103,5 +103,5 @@ https://www.packtpub.com/packtlib
 
 ### For those interested in software development with Scala:
 
-Oneteam is now hiring server-side engineer.  Please visit [HERE](https://one-team.com/recruit/)
+[Oneteam Inc.](https://one-team.com/) is now hiring server-side engineer.  Please visit [HERE](https://one-team.com/recruit/)
 
