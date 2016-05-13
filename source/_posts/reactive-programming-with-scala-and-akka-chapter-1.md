@@ -1,5 +1,5 @@
 ---
-title: Reading "Reactive Programming with Scala and Akka" - Chapter 1
+title: Reading Reactive Programming with Scala and Akka - Chapter 1
 lang: en
 date: 2016-05-12 10:00:00
 tags:
