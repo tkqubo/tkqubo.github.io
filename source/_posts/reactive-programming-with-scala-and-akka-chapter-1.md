@@ -36,7 +36,7 @@ Core ideas that support Reactive Programming are, according to the book:
 - Scalable
 - Message-driven
 
-The book illustrates these words one by one, among which I appreciated the explanation of the *resilience*, where the author express *a failure as a first-class event*.  This is more concrete and easy-to-understand rephrase of Akka's "let it crash" philosophy.  Yes, we have to handle failures gracefully, instead of trying to kick out or suppress them, as if they are non-existent.
+The book illustrates these words one by one, among which I appreciated the explanation of the *resilience*, where the author express *a failure as a first-class event*.  This is more concrete and easy-to-understand rephrase of Akka's "let it crash" philosophy.  Yes, we have to handle failures gracefully, instead of trying to kick out or suppress them, as if they were non-existent.
 
 For those 4 RP pillars above, these materials would be of great help
 
@@ -85,7 +85,7 @@ The book introduces two reactive applications:
 - IoT
 - Tumblr's architecture
 
-One of the participants made an interesting remark on IoT that IoT devices themselves can construct a dense population as an Internet-connecting entities like us human beings.  Think about that with the outrageous growth of the Internet users described in the beginning of this chapter, the amount of data flowing back and forth on the Internet will no doubt continue to increase.  To tackle with this problem, Reactive Programming must play the most important role in software engineering.
+One of the participants made an interesting remark on IoT that IoT devices themselves can construct a dense population as an Internet-connecting entities like us human beings.  Think about that with the outrageous growth of the number of the Internet users described in the beginning of this chapter, the amount of data flowing back and forth on the Internet will no doubt continue to increase.  To tackle with this problem, Reactive Programming must play the most important role in software engineering.
 
 ## A thought on reading technical book in foreign language in a reading circle
 
