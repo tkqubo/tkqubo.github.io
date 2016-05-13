@@ -7,9 +7,9 @@ tags:
   - ReactiveProgramming
 ---
 
-Last week I held a small reading club to read <a  href="http://www.amazon.com/gp/product/1783984341/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1783984341&linkCode=as2&tag=tkqubo-20&linkId=3DD3AV3FBDD6745N">Reactive Programming with Scala and Akka</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=tkqubo-20&l=as2&o=1&a=1783984341" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, written by Prasanna Kumar Sathyanarayanan and Suraj Atreya.
+Last week I held a small reading club to read <a  href="http://www.amazon.com/gp/product/1783984341/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1783984341&linkCode=as2&tag=tkqubo-20&linkId=3DD3AV3FBDD6745N">Reactive Programming with Scala and Akka</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=tkqubo-20&l=as2&o=1&a=1783984341" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, written by Prasanna Kumar Sathyanarayanan and Suraj Atreya.
 
-<a  href="http://www.amazon.com/gp/product/1783984341/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1783984341&linkCode=as2&tag=tkqubo-20&linkId=JASVNACQ5LY5DXPL"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1783984341&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=tkqubo-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=tkqubo-20&l=as2&o=1&a=1783984341" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a  href="http://www.amazon.com/gp/product/1783984341/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1783984341&linkCode=as2&tag=tkqubo-20&linkId=JASVNACQ5LY5DXPL"><img border="0" src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1783984341&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=tkqubo-20" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=tkqubo-20&l=as2&o=1&a=1783984341" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 The book contains a lot of exciting topics about Scala, Functional Programming, Reactive Programming, and Akka.  Thus highly recommended for anyone with Scala love.
 

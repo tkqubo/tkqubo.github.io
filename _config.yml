@@ -14,8 +14,9 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://tkqubo.github.io/tkqubo/
-root: /tkqubo/
+url: https://tkqubo.github.io/
+enforce_ssl: tkqubo.github.io
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -71,8 +72,8 @@ theme: alberta
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/tkqubo/tkqubo.git
-  branch: gh-pages
+  repo: https://github.com/tkqubo/tkqubo.github.io.git
+  branch: master
 
 # Disqus
 disqus_shortname: tkqubo
