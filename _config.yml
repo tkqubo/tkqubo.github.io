@@ -73,3 +73,6 @@ deploy:
   type: git
   repo: https://github.com/tkqubo/tkqubo.git
   branch: gh-pages
+
+# Disqus
+disqus_shortname: tkqubo
