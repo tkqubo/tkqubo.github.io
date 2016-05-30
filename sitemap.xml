@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tkqubo.github.io/2016/05/30/a-casual-trip-to-the-monad-through-scalaz/</loc>
+    
+    <lastmod>2016-05-30T01:01:49.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://tkqubo.github.io/2016/05/12/reactive-programming-with-scala-and-akka-chapter-1/</loc>
     
     <lastmod>2016-05-13T10:32:15.000Z</lastmod>
