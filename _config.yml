@@ -77,3 +77,11 @@ deploy:
 
 # Disqus
 disqus_shortname: tkqubo
+
+# hexo-tag-emojis plugin configuration
+emojis:
+  image_dir: images/emojis
+#plugins:
+#  - hexo-tag-emojis
+
+
