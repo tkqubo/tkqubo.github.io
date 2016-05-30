@@ -2,6 +2,8 @@
 title: 'A casual trip to the Monad, through Scalaz'
 date: 2016-05-30 04:31:20
 tags:
+  - Scala
+  - ReactiveProgramming
 ---
 
 We had a [meetup](http://reactive-programming-with-scala-and-akka.connpass.com/event/31710/) reading 2nd chapter of <a  href="http://www.amazon.com/gp/product/1783984341/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1783984341&linkCode=as2&tag=tkqubo-20&linkId=3DD3AV3FBDD6745N">Reactive Programming with Scala and Akka</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=tkqubo-20&l=as2&o=1&a=1783984341" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> last Friday.
@@ -24,7 +26,7 @@ If you don't know very much about functors, applicative functional, and monads (
 | **`Applicative`** | *applies* a method `A => B` in some *container `F`* <br />to a value `A` in another *container F* | *`ap[A,B](f: => F[A => B]): F[B]`* |
 | **`Monad`** | *flatMap*s a value `A` in some *container `F`* | *`bind[A, B](f: A => F[B]): F[B]`* |
 
-Here, the word *container* means kind of an abstraction of the way of holding value.  `Option`, `List` and `Future` are good examples of them in Scala language.
+Here, the word *container* means kind of an abstraction of a way of holding value.  `Option`, `List` and `Future` are good examples of them in Scala language.
 
 | type | how it holds value |
 |:--|:--|
